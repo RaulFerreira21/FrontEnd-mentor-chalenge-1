@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="index.css">
   <title>Frontend Mentor | Four card feature section</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,29 +15,45 @@
   </style>
 </head>
 <body>
-  <!-- H1 -->
-  Reliable, efficient delivery
-  <!-- h2 B -->
-  Powered by Technology
-  <!-- subtitulo -->
+  <header>
+    <h1>
+        Reliable, efficient delivery
+    </h1>
+    <h2>
+        Powered by Technology
+    </h2>
+    <p>
   Our Artificial Intelligence powered tools use millions of project data points 
   to ensure that your project is successful
-
-  <!-- Primeiro Card -->
-  Supervisor
-  Monitors activity to identify project roadblocks
-<!-- Segundo card -->
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-<!-- terceiro card -->
-  Karma
-  Regularly evaluates our talent to ensure quality
-<!-- Quarto Card-->
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
+    </p>
+  </header>
   
-  <footer>
+  <article id="container">
+    <section id="supervisor" >
+      <b>Supervisor</b>
+      <p>Monitors activity to identify project roadblocks</p>
+      <img class="imagesBottom" src="images/icon-supervisor.svg">
+    </section>
+    <article id="middle">
+        <section id="teamBuilder">
+            <b>Supervisor</b>
+            <p>Scans our talent network to create the optimal team for your project</p>
+            <img class="imagesBottom" src="images/icon-team-builder.svg">
+          </section>
+          <section id="karma">
+              <b>Supervisor</b>
+              <p>Regularly evaluates our talent to ensure quality</p>
+              <img class="imagesBottom" src="images/icon-karma.svg">
+            </section>
+    </article>
+    <section id="calculator" >
+        <b>Supervisor</b>
+        <p>Uses data from past projects to provide better delivery estimates </p>
+        <img class="imagesBottom" src="images/icon-calculator.svg">
+      </section>
+  </article>
+  
+  <footer style="position: fixed; left: 38%; top: auto;">
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
