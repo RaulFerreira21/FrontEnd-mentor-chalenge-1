@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: rgb(247, 251, 255)
+}
+header{
+    text-align: center;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 350px;
+}
+header h1{
+    font-size: 22px;
+    color: lightslategray;
+    font-weight: unset;
+}
+header h2 {
+    font-size: 23px;
+    font-weight: bold;
+}
+header p{
+    font-weight: unset;
+    font-size: 14px;
+    color: lightslategray;
+    text-align: center;
+}
+p{
+    font-weight: unset;
+    font-size: 14px;
+    color: lightslategray;
+}
+#supervisor{
+    border-top: 4px solid hsl(180, 62%, 55%);
+    border-radius: 5px;
+    box-shadow: 0 5px 11px -1px lightblue;
+    margin: auto;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    flex-wrap: wrap;
+    
+}
+#teamBuilder{
+    border-top: 4px solid hsl(0, 78%, 62%);
+    border-radius: 5px;
+    box-shadow: 0 5px 11px -1px lightblue;
+    margin: auto;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+}
+#karma{
+    border-top: 4px solid hsl(34, 97%, 64%);
+    border-radius: 5px;
+    box-shadow: 0 5px 11px -1px lightblue;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    margin-top: 40px;
+}
+#calculator{
+    border-radius: 5px;
+    box-shadow: 0 5px 11px -1px lightblue;
+    padding: 25px;
+    margin: auto;
+    border-top: 4px solid hsl(212, 86%, 64%);
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    flex-wrap: wrap;
+    
+}
+.imagesBottom{
+    margin: 10px;
+    width: fit-content;
+    align-self: flex-end;
+}
+#container{
+    display: flex;
+    margin-top: 25px;
+    flex-wrap: wrap
+}
+#middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+@media (max-width: 481px){
+    #calculator{
+        margin-top: 40px
+    }
+    #supervisor{
+        margin-bottom: 40px
+    }
+}
